@@ -42,8 +42,8 @@ func TestUserService_Create(t *testing.T) {
 	})
 
 	u := &User{
-		Name:            "charlie",
-		Password:        "abracadabra",
+		Name: "charlie",
+
 		EmailAddress:    "charlie@atlassian.com",
 		DisplayName:     "Charlie of Atlassian",
 		ApplicationKeys: []string{"jira-core"},
